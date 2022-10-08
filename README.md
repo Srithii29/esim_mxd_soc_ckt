@@ -25,7 +25,6 @@ This repository gives a detailed report on the design of a Implementation of Cmo
     * [Verilog_codes](#-Verilog-codes)
 * [Resultant Waveforms](#-Resultant-Waveforms) 
 * [Netlist](#-Netlist)
-* [Run_this_project](#-Run-this-project)
 * [Author](#-Author)
 * [Acknowledgements](#-Acknowledgements)
 
