@@ -121,7 +121,7 @@ Schematic designed for  Adder/Subractor
 
 ![bssch](Images/s2.png)
 
-Skymode blovk
+Skymode block
 
 ![bssch](Images/sky.png)
 
@@ -199,7 +199,7 @@ Resultant waveform of Cmos Buffer Along With Multiplexer with Adder/Subtractor f
 The Netlist for the designed circuit is generated after simulating the circuit.
 
 ```
-* /home/nalinnet36/snk/sri/sri.cir
+* /home/snk/sri/sri.cir
 
 .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__linear.model.spice"
 .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__r+c.model.spice"
