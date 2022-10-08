@@ -1,0 +1,45 @@
+* /home/nalinnet36/snk/sri/sri.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Sat 08 Oct 2022 11:01:46 AM IST
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+SC2  Net-_SC1-Pad1_ vin1 GND GND sky130_fd_pr__nfet_01v8		
+SC1  Net-_SC1-Pad1_ vin1 Net-_SC1-Pad3_ Net-_SC1-Pad3_ sky130_fd_pr__pfet_01v8		
+SC5  buf_out1 Net-_SC1-Pad1_ Net-_SC1-Pad3_ Net-_SC1-Pad3_ sky130_fd_pr__pfet_01v8		
+SC6  buf_out1 Net-_SC1-Pad1_ GND GND sky130_fd_pr__nfet_01v8		
+v1  vin1 GND sine		
+v7  mux3 GND pulse		
+scmode1  SKY130mode		
+v3  Net-_SC1-Pad3_ GND DC		
+U1  vin1 plot_v1		
+U3  buf_out1 plot_v1		
+SC4  Net-_SC3-Pad1_ vin2 GND GND sky130_fd_pr__nfet_01v8		
+SC3  Net-_SC3-Pad1_ vin2 Net-_SC3-Pad3_ Net-_SC3-Pad3_ sky130_fd_pr__pfet_01v8		
+SC7  buf_out2 Net-_SC3-Pad1_ Net-_SC3-Pad3_ Net-_SC3-Pad3_ sky130_fd_pr__pfet_01v8		
+SC8  buf_out2 Net-_SC3-Pad1_ GND GND sky130_fd_pr__nfet_01v8		
+v2  vin2 GND sine		
+v4  Net-_SC3-Pad3_ GND DC		
+U2  vin2 plot_v1		
+U4  buf_out2 plot_v1		
+U5  s_d c_b Net-_U5-Pad3_ Net-_U5-Pad4_ Net-_U5-Pad5_ Net-_U5-Pad6_ Net-_U13-Pad1_ srimux		
+U7  Net-_U7-Pad1_ out dac_bridge_1		
+U8  out plot_v1		
+U9  Net-_U10-Pad2_ Net-_U13-Pad1_ Net-_U7-Pad1_ sri_and		
+U10  f1 Net-_U10-Pad2_ adc_bridge_1		
+v5  has1 GND pulse		
+v6  has2 GND pulse		
+v8  has3 GND pulse		
+U11  Net-_U11-Pad1_ Net-_U11-Pad2_ Net-_U11-Pad3_ s_d c_b sri_add_sub		
+U12  has1 has2 has3 Net-_U11-Pad1_ Net-_U11-Pad2_ Net-_U11-Pad3_ adc_bridge_3		
+U6  mux3 mux3 buf_out1 buf_out2 Net-_U5-Pad3_ Net-_U5-Pad4_ Net-_U5-Pad5_ Net-_U5-Pad6_ adc_bridge_4		
+v9  f1 GND sine		
+U14  mux_out plot_v1		
+U13  Net-_U13-Pad1_ mux_out dac_bridge_1		
+U15  s_d c_b o_s_d o_c_b dac_bridge_2		
+U17  o_s_d plot_v1		
+U16  o_c_b plot_v1		
+
+.end

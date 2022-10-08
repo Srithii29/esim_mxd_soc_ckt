@@ -1,0 +1,4703 @@
+optran: no such command available in ngspice
+
+Compatibility modes selected: hs a
+
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+Warning: redefinition of .subckt sky130_fd_pr__res_generic_po, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_generic_nd, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_generic_pd, ignored
+Warning: redefinition of .subckt sky130_fd_pr__model__parasitic__res_po, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po_0p35, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po_0p69, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po_1p41, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po_2p85, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po_5p73, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po__base, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po_0p35, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po_0p69, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po_1p41, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po_2p85, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po_5p73, ignored
+Warning: redefinition of .subckt sky130_fd_pr__pnp_05v5_w0p68l0p68, ignored
+
+Circuit: * /home/nalinnet36/snk/sri/sri.cir
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: include: has no value, DC 0 assumed
+Warning: v9: no DC value, transient time 0 value used
+Warning: v8: no DC value, transient time 0 value used
+Warning: v6: no DC value, transient time 0 value used
+Warning: v5: no DC value, transient time 0 value used
+Warning: v2: no DC value, transient time 0 value used
+Warning: v7: no DC value, transient time 0 value used
+Warning: v1: no DC value, transient time 0 value used
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=0
+s=0
+out=0
+
+Inside foo after eval.....
+in=0
+s=0
+out=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+s=0
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=0
+b=0
+s=0
+s_d=0
+c_b=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=0
+s=0
+out=0
+
+Inside foo after eval.....
+in=0
+s=0
+out=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+s=0
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=0
+b=0
+s=0
+s_d=0
+c_b=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+s=0
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=0
+s=0
+out=0
+
+Inside foo after eval.....
+in=3
+s=0
+out=1
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=3
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=11
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=11
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=1
+out=1
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=11
+s=1
+out=1
+
+Inside foo after eval.....
+in=11
+s=3
+out=1
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=11
+s=3
+out=1
+
+Inside foo after eval.....
+in=3
+s=3
+out=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=3
+s=3
+out=0
+
+Inside foo after eval.....
+in=3
+s=2
+out=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=3
+s=2
+out=0
+
+Inside foo after eval.....
+in=3
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=0
+b=1
+s=1
+s_d=1
+c_b=1
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=3
+s=0
+out=1
+
+Inside foo after eval.....
+in=15
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=15
+s=0
+out=1
+
+Inside foo after eval.....
+in=15
+s=1
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=15
+s=1
+out=1
+
+Inside foo after eval.....
+in=15
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=1
+s=1
+s_d=1
+c_b=1
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=15
+s=0
+out=1
+
+Inside foo after eval.....
+in=3
+s=0
+out=1
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=3
+s=0
+out=1
+
+Inside foo after eval.....
+in=3
+s=1
+out=1
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=3
+s=1
+out=1
+
+Inside foo after eval.....
+in=3
+s=3
+out=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=3
+s=3
+out=0
+
+Inside foo after eval.....
+in=11
+s=3
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=11
+s=3
+out=1
+
+Inside foo after eval.....
+in=11
+s=2
+out=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=11
+s=2
+out=0
+
+Inside foo after eval.....
+in=11
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=0
+b=0
+s=1
+s_d=0
+c_b=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=11
+s=0
+out=1
+
+Inside foo after eval.....
+in=3
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=3
+s=0
+out=1
+
+Inside foo after eval.....
+in=3
+s=1
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=3
+s=1
+out=1
+
+Inside foo after eval.....
+in=3
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=3
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=0
+out=1
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=11
+s=0
+out=1
+
+Inside foo after eval.....
+in=8
+s=0
+out=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=8
+s=0
+out=0
+
+Inside foo after eval.....
+in=8
+s=1
+out=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=8
+s=1
+out=0
+
+Inside foo after eval.....
+in=8
+s=3
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=8
+s=3
+out=1
+
+Inside foo after eval.....
+in=0
+s=3
+out=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=0
+s=3
+out=0
+
+Inside foo after eval.....
+in=0
+s=2
+out=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=0
+s=2
+out=0
+
+Inside foo after eval.....
+in=0
+s=0
+out=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=0
+b=1
+s=0
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=0
+s=0
+out=0
+
+Inside foo after eval.....
+in=8
+s=0
+out=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=8
+s=0
+out=0
+
+Inside foo after eval.....
+in=8
+s=1
+out=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=8
+s=1
+out=0
+
+Inside foo after eval.....
+in=8
+s=0
+out=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=1
+s=0
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=8
+s=0
+out=0
+
+Inside foo after eval.....
+in=4
+s=0
+out=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+
+Inside foo after eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=4
+s=0
+out=0
+
+Inside foo after eval.....
+in=4
+s=1
+out=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=4
+s=1
+out=0
+
+Inside foo after eval.....
+in=4
+s=3
+out=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+
+Inside foo after eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+
+Inside foo after eval.....
+a=1
+b=0
+s=0
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=4
+s=3
+out=0
+
+Inside foo after eval.....
+in=8
+s=3
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=8
+s=3
+out=1
+
+Inside foo after eval.....
+in=8
+s=2
+out=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=8
+s=2
+out=0
+
+Inside foo after eval.....
+in=8
+s=0
+out=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+s=0
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=0
+s_d=1
+c_b=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+s=0
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=0
+b=0
+s=0
+s_d=0
+c_b=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=8
+s=0
+out=0
+
+Inside foo after eval.....
+in=0
+s=0
+out=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=0
+s=0
+out=0
+
+Inside foo after eval.....
+in=0
+s=1
+out=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=0
+s=1
+out=0
+
+Inside foo after eval.....
+in=0
+s=0
+out=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+s=0
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=0
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=0
+s=0
+out=0
+
+Inside foo after eval.....
+in=3
+s=0
+out=1
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=3
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+s=0
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=0
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=11
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=11
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=1
+out=1
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=11
+s=1
+out=1
+
+Inside foo after eval.....
+in=11
+s=3
+out=1
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+s=0
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=11
+s=3
+out=1
+
+Inside foo after eval.....
+in=7
+s=3
+out=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+
+Inside foo after eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=7
+s=3
+out=0
+
+Inside foo after eval.....
+in=7
+s=2
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=7
+s=2
+out=1
+
+Inside foo after eval.....
+in=7
+s=2
+out=1
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=7
+s=2
+out=1
+
+Inside foo after eval.....
+in=7
+s=0
+out=1
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+
+Inside foo after eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+=============sri_add_sub : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+
+Inside foo after eval.....
+a=0
+b=1
+s=0
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=7
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=11
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=1
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============srimux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+in=11
+s=1
+out=1
+
+Inside foo after eval.....
+in=11
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+
+No. of Data Rows : 11298
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+binary raw file "/home/nalinnet36/snk/sri/sri.raw"
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: include: has no value, DC 0 assumed
+Warning: v9: no DC value, transient time 0 value used
+Warning: v8: no DC value, transient time 0 value used
+Warning: v6: no DC value, transient time 0 value used
+Warning: v5: no DC value, transient time 0 value used
+Warning: v2: no DC value, transient time 0 value used
+Warning: v7: no DC value, transient time 0 value used
+Warning: v1: no DC value, transient time 0 value used
+No. of Data Columns : 57  
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=0
+s=0
+out=0
+
+Inside foo after eval.....
+in=0
+s=0
+out=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+s=0
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=0
+b=0
+s=0
+s_d=0
+c_b=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=0
+s=0
+out=0
+
+Inside foo after eval.....
+in=0
+s=0
+out=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+s=0
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=0
+b=0
+s=0
+s_d=0
+c_b=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+s=0
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=0
+s=0
+out=0
+
+Inside foo after eval.....
+in=3
+s=0
+out=1
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=3
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=11
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=11
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=1
+out=1
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=11
+s=1
+out=1
+
+Inside foo after eval.....
+in=11
+s=3
+out=1
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=11
+s=3
+out=1
+
+Inside foo after eval.....
+in=3
+s=3
+out=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=3
+s=3
+out=0
+
+Inside foo after eval.....
+in=3
+s=2
+out=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=3
+s=2
+out=0
+
+Inside foo after eval.....
+in=3
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=0
+b=1
+s=1
+s_d=1
+c_b=1
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=3
+s=0
+out=1
+
+Inside foo after eval.....
+in=15
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=15
+s=0
+out=1
+
+Inside foo after eval.....
+in=15
+s=1
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=15
+s=1
+out=1
+
+Inside foo after eval.....
+in=15
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=1
+s=1
+s_d=1
+c_b=1
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=15
+s=0
+out=1
+
+Inside foo after eval.....
+in=3
+s=0
+out=1
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=3
+s=0
+out=1
+
+Inside foo after eval.....
+in=3
+s=1
+out=1
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=3
+s=1
+out=1
+
+Inside foo after eval.....
+in=3
+s=3
+out=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=3
+s=3
+out=0
+
+Inside foo after eval.....
+in=11
+s=3
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=11
+s=3
+out=1
+
+Inside foo after eval.....
+in=11
+s=2
+out=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=11
+s=2
+out=0
+
+Inside foo after eval.....
+in=11
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=0
+b=0
+s=1
+s_d=0
+c_b=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=11
+s=0
+out=1
+
+Inside foo after eval.....
+in=3
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=3
+s=0
+out=1
+
+Inside foo after eval.....
+in=3
+s=1
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=3
+s=1
+out=1
+
+Inside foo after eval.....
+in=3
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=3
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=0
+out=1
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=11
+s=0
+out=1
+
+Inside foo after eval.....
+in=8
+s=0
+out=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=8
+s=0
+out=0
+
+Inside foo after eval.....
+in=8
+s=1
+out=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=8
+s=1
+out=0
+
+Inside foo after eval.....
+in=8
+s=3
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+s=1
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=8
+s=3
+out=1
+
+Inside foo after eval.....
+in=0
+s=3
+out=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=0
+s=3
+out=0
+
+Inside foo after eval.....
+in=0
+s=2
+out=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=0
+s=2
+out=0
+
+Inside foo after eval.....
+in=0
+s=0
+out=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+s=1
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=0
+b=1
+s=0
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=0
+s=0
+out=0
+
+Inside foo after eval.....
+in=8
+s=0
+out=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=8
+s=0
+out=0
+
+Inside foo after eval.....
+in=8
+s=1
+out=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=8
+s=1
+out=0
+
+Inside foo after eval.....
+in=8
+s=0
+out=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=1
+s=0
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=8
+s=0
+out=0
+
+Inside foo after eval.....
+in=4
+s=0
+out=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+
+Inside foo after eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=4
+s=0
+out=0
+
+Inside foo after eval.....
+in=4
+s=1
+out=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=4
+s=1
+out=0
+
+Inside foo after eval.....
+in=4
+s=3
+out=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+
+Inside foo after eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+
+Inside foo after eval.....
+a=1
+b=0
+s=0
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=4
+s=3
+out=0
+
+Inside foo after eval.....
+in=8
+s=3
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=8
+s=3
+out=1
+
+Inside foo after eval.....
+in=8
+s=2
+out=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=8
+s=2
+out=0
+
+Inside foo after eval.....
+in=8
+s=0
+out=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+s=0
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=0
+s_d=1
+c_b=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+s=0
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=0
+b=0
+s=0
+s_d=0
+c_b=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=8
+s=0
+out=0
+
+Inside foo after eval.....
+in=0
+s=0
+out=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=0
+s=0
+out=0
+
+Inside foo after eval.....
+in=0
+s=1
+out=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=0
+s=1
+out=0
+
+Inside foo after eval.....
+in=0
+s=0
+out=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+s=0
+s_d=0
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=0
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=0
+s=0
+out=0
+
+Inside foo after eval.....
+in=3
+s=0
+out=1
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=3
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+s=0
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=0
+s=0
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=11
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=11
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=1
+out=1
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=11
+s=1
+out=1
+
+Inside foo after eval.....
+in=11
+s=3
+out=1
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+s=0
+s_d=1
+c_b=0
+
+Inside foo after eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=11
+s=3
+out=1
+
+Inside foo after eval.....
+in=7
+s=3
+out=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+
+Inside foo after eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=1
+B=0
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=0
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=7
+s=3
+out=0
+
+Inside foo after eval.....
+in=7
+s=2
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=0
+Y=0
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=7
+s=2
+out=1
+
+Inside foo after eval.....
+in=7
+s=2
+out=1
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=7
+s=2
+out=1
+
+Inside foo after eval.....
+in=7
+s=0
+out=1
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+
+Inside foo after eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+=============sri_add_sub : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+s=0
+s_d=0
+c_b=1
+
+Inside foo after eval.....
+a=0
+b=1
+s=0
+s_d=1
+c_b=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=7
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=11
+s=0
+out=1
+
+Inside foo after eval.....
+in=11
+s=1
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+=============srimux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+in=11
+s=1
+out=1
+
+Inside foo after eval.....
+in=11
+s=0
+out=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=0
+B=1
+Y=0
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=1
+B=1
+Y=1
+=============sri_and : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+A=1
+B=1
+Y=1
+
+Inside foo after eval.....
+A=0
+B=1
+Y=0
+
+No. of Data Rows : 11298
+
+Total analysis time (seconds) = 1.41699
+
+Total CPU time (seconds) = 12.049 
+
+Total DRAM available = 257855.305 MB.
+DRAM currently available = 243476.039 MB.
+Maximum ngspice program size =  397.953 MB.
+Current ngspice program size =  332.066 MB.
+
+Shared ngspice pages =    9.918 MB.
+Text (code) pages =    6.285 MB.
+Stack = 0 bytes.
+Library pages =  325.527 MB.
+
